@@ -5,6 +5,7 @@ class CoinsController < ApplicationController
   # GET /coins.json
   def index
     @coins = Coin.all
+    #teste de versao
   end
 
   # GET /coins/1
